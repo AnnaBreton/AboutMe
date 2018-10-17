@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Anna Resume 2 </title>
+    <!--highcharts link and Jquery link for needed with for creating highcharts-->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="../js/AnnaJS.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/AnnaStylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<!-- Navigation bar at top -->
+<div class="w3-top">
+    <div class="w3-bar" id="myNavbar">
+        <a href="#home" class="w3-bar-item w3-button w3-black ">HOME</a>
+        <a href="#hobbies" class="w3-bar-item w3-button w3-hide-small w3-purple"><i class="fa fa-user"></i> HOBBIES</a>
+        <a href="#teams" class="w3-bar-item w3-button w3-hide-small w3-blue"><i class="fa fa-th"></i> TEAMS</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-teal"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+</div>
+<!-- First background image- hobbies -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+    <div class="w3-display-middle" style="white-space:nowrap;">
+        <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">All <span class="w3-hide-small">About</span> Anna -Hobbies</span>
+    </div>
+</div>
+
+<div id="container4" style="width:100%; height:400px;"></div>
+
+<!-- Container for hobbies section with button for third page -> skills, and table with activity details -->
+<div class="w3-content w3-container w3-padding-64" id="hobbies">
+    <h3 class="w3-center">Hobbies</h3>
+    <h2  style="font-size: 50px ">Some of my hobbies include:</h2>
+    <ol>
+        <li style="font-size: 30px ">cycling <div class="fa fa-bicycle w3-xxlarge" ></div></li>
+        <li style="font-size: 30px">Skiing <div class="fa fa-snowflake-o w3-xxlarge" ></div></li>
+        <li style="font-size: 30px">Running<div class="fa fa-smile-o w3-xxlarge" ></div></li>
+        <li style="font-size: 30px">Hiking <div class="fa fa-tree w3-xxlarge" ></div></li>
+        <li style="font-size: 30px">Traveling<div class="fa fa-plane w3-xxlarge" ></div></li>
+        <li style="font-size: 30px">Driking Tea<div class="fa fa-coffee w3-xxlarge" ></div></li>
+        <li style="font-size: 30px">Playing with my dog<div class="fa fa-heart w3-xxlarge" ></div></li>
+    </ol>
+    <form action= "AllAboutAnna3.html">
+
+        <input style="color: #ca09a4; font-family: 'Microsoft JhengHei'; font-size: 200%;" type="submit" value="Read About My Skills">
+    </form>
+</div>
+
+<table>
+    <tr>
+        <th>Activity</th>
+        <th>Details</th>
+        <th>Year</th>
+    </tr>
+    <tr>
+        <td>Sponsored Athlete, Tenspeed Hero 2016-current</td>
+        <td> Involved in promoting growth and participation of women in sports including road and mountain biking</td>
+        <td>2016- Current</td>
+    </tr>
+    <tr>
+        <td>St. Lawrence Cycling Team Vice President and Secretary </td>
+        <td>Assist in coaching, communicating important details and oganizing travel to races for the team</td>
+        <td>2016-Current</td>
+    </tr>
+    <tr>
+        <td>St. Lawrence University varsity cross country/track </td>
+        <td>Competed at the NCAA National level and achieved school records</td>
+        <td>2015-2016</td>
+    </tr>
+    <tr>
+        <td>US Junior Orienteering Team member
+        </td>
+        <td> Competed at a national and international level representing the United States.</td>
+        <td>2013-2015</td>
+    </tr>
+    <tr>
+        <td>High School Varsity cross country/track</td>
+        <td>Was State Champ and All-American</td>
+        <td>2012-2015</td>
+    </tr>
+</table>
+
+
+<!-- Second background image with Team info -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle" style="white-space:nowrap;">
+        <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">All <span class="w3-hide-small">About</span> Anna - Teams</span>
+    </div>
+</div>
+
+<!-- Container for Teams section -->
+<div class="w3-content w3-container w3-padding-64" id="teams"> <h3 class="w3-center">Teams</h3> </div>
+
+    <div class="w3-row-padding w3-center w3-section">
+
+        <h2>Our Team Logo</h2>
+        <p class="w3-center">Move the mouse over the image below to open the dropdown content.</p>
+
+        <div class="dropdown">
+            <img src="SLUCYCLING.png" alt="SLU Cycling" width="300" height="200">
+            <div class="dropdown-content">
+                <img src="SLUCYCLING.png" alt="SLU Cycling" width="600" height="400">
+                <div class="desc">St. Lawrence University Cycling Team</div>
+            </div>
+        </div>
+        <div class="dropdown">
+            <img src="USAO.png" alt="USAO" width="400" height="200">
+            <div class="dropdown-content">
+                <img src="USAO.png" alt="USAO" width="700" height="400">
+                <div class="desc">USA Orienteering</div>
+            </div>
+        </div>
+        <div class="dropdown">
+            <img src="TSH.jpg" alt="TSH" width="300" height="300">
+            <div class="dropdown-content">
+                <img src="TSH.jpg" alt="TSH" width="500" height="500">
+                <div class="desc">Tenspeed Hero</div>
+            </div>
+        </div>
+    </div>
+
+<!-- Third background image with contact information -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle" style="white-space:nowrap;">
+        <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">All <span class="w3-hide-small">About</span> Anna - Contact</span>
+    </div>
+</div>
+
+<!-- Container for contact section -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+    <h3 class="w3-center">CONTACT ME</h3>
+            <div class="w3-large w3-margin-bottom">
+                <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-center"></i> NY, US<br>
+                <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-center"></i> Phone: 845-499-9922<br>
+                <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-center"></i> Email: abret15@stlawu.edu<br>
+            </div>
+
+                <form action="/action_page.php" id="usrform">
+                    Name: <input type="text" name="usrname">
+                    <input type="submit">
+                </form>
+                <br>
+                <textarea rows="4" cols="50" name="comment" form="usrform"> Enter text here...</textarea>
+                <form action="/action_page.php">
+                    Birthday:
+                    <input type="date" name="bday">
+                    <input type="submit">
+                </form>
+                    <p>Type in the password 1234:</p>
+                    <input type="password" name="psw" id="id1" >
+
+                <button onclick="getPassword()">Check Password</button>
+                <p> Submit your name and favorite color below:</p>
+        <form name="myForm"
+              onsubmit="return HTMLvalidate()" method="post">
+            Name: <input type="text" name="fname">
+            Favorite Color: <input type="text" name="fcolor">
+            <input type="submit" value="Submit">
+        </form>
+</div>
+
+<!-- webpage footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Back to the top</a>
+    <div class="w3-xlarge w3-section">
+        <a href=" https://www.instagram.com/annabreeeeton/?hl=en"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+        <a href = https://www.linkedin.com/in/anna-breton-250898134> <i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    </div>
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+</html>

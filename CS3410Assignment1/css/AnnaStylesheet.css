@@ -1,0 +1,172 @@
+p{
+    font-family: "Microsoft JhengHei";
+    text-align: center;
+    font-size: 20px;
+    color: rebeccapurple;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Microsoft JhengHei", sans-serif; font-size:20px;
+    height: 100%;
+    color: #000000;
+    line-height: 1.5;
+    vertical-align: middle;  }
+body, html {
+    font-size:20px;
+    height: 100%;
+    vertical-align: middle;
+}
+
+/* Create a Parallax Effect For first page */
+.img-1, .img-2, .img-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.img-1 {
+    background-image: url('../libs/AnnaOutdoors.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Experience) */
+.img-2 {
+    background-image: url("../libs/AnnaResearch.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.img-3 {
+    background-image: url("../libs/AnnaBretonJavaScriptExample.JPG");
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+img {
+    float: right;
+}
+
+
+/* Create a Parallax Effect For Pg2 */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('../libs/AnnaCX.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("../libs/AnnaSki.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("../libs/AnnaTea.jpg");
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+img {
+    float: right;
+}
+
+/* Create a Parallax Effect For pg 3 */
+.bgimg2-1, .bgimg2-2, .bgimg2-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg2-1 {
+    background-image: url('../libs/Omap.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg2-2 {
+    background-image: url("../libs/world.jpg");
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0 auto;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #ffd9de;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+h3 {
+    border-left: 16px solid #d4aeff;
+    background-color: lightgrey;
+}
+h2 {
+    border-left: 16px solid #cdffde;
+    background-color: lightgrey;
+}
+
+form {
+    margin: 0 auto;
+    text-align: center;
+}
+
+li{
+    list-style-type: circle;
+}
+div{
+    text-align: center;
+}
